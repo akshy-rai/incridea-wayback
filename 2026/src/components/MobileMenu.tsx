@@ -169,7 +169,7 @@ const MobileMenu = ({ onLogout, isAuthenticated }: MobileMenuProps) => {
                                     <motion.h1 variants={itemVariants} className="text-4xl md:text-5xl font-extrabold text-white mb-6 md:mb-10 pb-4 tracking-tight text-center w-full">Menu</motion.h1>
 
                                     { }
-                                    <div className="flex flex-col gap-3 sm:gap-4 md:gap-8 w-full flex-grow items-center">
+                                    <div className="flex flex-col gap-3 sm:gap-4 md:gap-8 w-full grow items-center">
                                         {links.map(({ icon: Icon, path, label }) => (
                                             <motion.div
                                                 key={path}

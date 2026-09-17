@@ -307,7 +307,7 @@ function HomePage() {
         </svg>
 
         {/* Mobile Menu Trigger */}
-        <div className="absolute top-4 right-4 z-[120] lg:hidden">
+        <div className="absolute top-4 right-4 z-120 lg:hidden">
           <MobileMenu onLogout={handleLogout} isAuthenticated={isAuthenticated} />
         </div>
 
@@ -649,7 +649,7 @@ function HomePage() {
         </div>
 
         <footer
-          className="absolute bottom-0 left-0 w-full px-4 py-8 text-center bg-gradient-to-t from-black/80 to-transparent"
+          className="absolute bottom-0 left-0 w-full px-4 py-8 text-center bg-linear-to-t from-black/80 to-transparent"
           style={{ zIndex: 90 }}
         >
           <div
@@ -719,7 +719,7 @@ function HomePage() {
           </Link>
         </footer>
         {/* Empty black strip at the bottom */}
-        <div className="w-full absolute bottom-0 left-0 z-[150] bg-black border-t border-white/10 h-[14px] md:h-[18px]"></div>
+        <div className="w-full absolute bottom-0 left-0 z-150 bg-black border-t border-white/10 h-3.5 md:h-4.5"></div>
 
         {/* Bottom Vignette */}
         <div

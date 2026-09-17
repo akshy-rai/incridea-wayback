@@ -17,7 +17,7 @@ const GoogleAnalytics = () => {
 
     useEffect(() => {
         if (typeof window.gtag === "function") {
-            window.gtag("config", "G-9P7CRW96PF", {
+            window.gtag("config", "G-2N2HDG3NTE", {
                 page_path: location.pathname + location.search,
             });
         }

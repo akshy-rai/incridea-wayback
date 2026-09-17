@@ -133,9 +133,7 @@ export default function App({
 
   return (
     <>
-      <GoogleAnalytics
-        gaId={process.env.NEXT_PUBLIC_GOOGLE_ANALYTICS_ID ?? ""}
-      />
+      <GoogleAnalytics gaId="G-2N2HDG3NTE" />
 
       <AnimatePresence mode="wait">
         {isLoading && <LoadingScreen />}

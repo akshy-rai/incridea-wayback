@@ -131,7 +131,7 @@ function App() {
         {!isArchiveMode && <NavigationMetrics />}
         {!isArchiveMode && <SessionHeartbeat />}
         <PageTransitionHandler>
-          {!isArchiveMode && <GoogleAnalytics />}
+          <GoogleAnalytics />
           <ScrollToTop />
           <ArchiveBanner />
           <AppRoutes />
